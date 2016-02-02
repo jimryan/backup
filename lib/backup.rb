@@ -80,6 +80,7 @@ module Backup
     autoload :Riak,       File.join(DATABASE_PATH, 'riak')
     autoload :OpenLDAP,   File.join(DATABASE_PATH, 'openldap')
     autoload :SQLite,     File.join(DATABASE_PATH, 'sqlite')
+    autoload :Influx,     File.join(DATABASE_PATH, 'influx')
   end
 
   ##
